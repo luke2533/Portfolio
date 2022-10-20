@@ -62,3 +62,10 @@ Additions:
 Additions:
 
 - Tablet breakpoints added
+
+### 1.9 Responsive laptop support
+
+Additions:
+
+- Small laptop breakpoints added
+- Large laptop breakpoints added

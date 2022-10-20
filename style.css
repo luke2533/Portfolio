@@ -163,6 +163,53 @@ footer h3 {
 
 /* Responsive Breakpoints */
 
+@media (max-width: 1441px) {
+    .nav-title {
+        width: 35%;
+    }
+
+    .portfolio-img-block {
+        width: 40%;
+    }
+    
+    .portfolio-img {
+        width: 500px;
+    }
+
+    .about-me {
+        margin-top: 15px;
+        padding: 15px;
+        width: 40%;
+        height: 300px;
+    }
+
+    .contact {
+        width: 64.2%;
+    }
+    
+    .contact-text {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1025px) {
+    .portfolio-img-block {
+        width: 50%;
+    }
+    
+    #about-scroll {
+        overflow: auto;
+    }
+
+    .contact {
+        width: 65.8%;
+    }
+    
+    .contact-text {
+        font-size: 17px;
+    }
+}
+
 @media (max-width: 769px) {
     .nav-title {
         font-size: 30px;
