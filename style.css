@@ -163,6 +163,78 @@ footer h3 {
 
 /* Responsive Breakpoints */
 
+@media (max-width: 769px) {
+    .nav-title {
+        font-size: 30px;
+        width: 25%;
+    }
+
+    .portfolio-text-block {
+        width: 40%;
+        height: 350px;
+        overflow: auto;
+    }
+    
+    .portfolio-img-block {
+        width: 50%;
+        height: 350px;
+    }
+    
+    .portfolio-img {
+        width: 375px;
+        height: 350px;
+    }
+
+    .about-me {
+        margin-top: 15px;
+        padding: 15px;
+        width: 55%;
+        height: 250px;
+    }
+
+    #about-img {
+        width: 150px;
+        height: 250px;
+    }
+    
+    #about-title {
+        font-size: 1.4em !important;
+        margin-top: 2px !important;
+    }
+    
+    .about-text {
+        font-size: 18px;
+    }
+
+    .contact {
+        max-height: 150px;
+        background-color: rgb(54, 54, 54);
+        width: 82.8%;
+        margin: auto;
+    }
+    
+    .contact-text {
+        font-size: 15px;
+        margin-right: 10px;
+        margin-top: 15px;
+        color: white;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+    
+    footer h3 {
+        font-size: 17px;
+    }
+    
+    .footer-section {
+        margin-right: 10px;
+        margin-left: 5px;
+        width: 25%;
+    }
+}
+
 @media (max-width: 426px) {
     .nav-title {
         font-size: 17.5px;

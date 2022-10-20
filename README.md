@@ -56,3 +56,9 @@ Additions:
 Additions:
 
 - Mobile breakpoints added
+
+### 1.8 Responsive tablet support
+
+Additions:
+
+- Tablet breakpoints added
