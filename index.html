@@ -10,15 +10,13 @@
     <body>
         <header>
             <nav>
-                <div class="nav-title">
+                <div class="nav-title" id="home">
                     <p id="title">Luke Foxwell</p>
                 </div>
                 <div class="nav-bar">
-                    <a href="" class="nav-link">Home</a>
-                    <a href="" class="nav-link">About</a>
-                    <a href="" class="nav-link">Portfolio</a>
-                    <a href="" class="nav-link">Contact</a>
-                    <a href="" class="nav-link">Links</a>
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#links" class="nav-link">Links</a>
                 </div>
             </nav>
         </header>
@@ -30,15 +28,16 @@
 
         <br>
         <hr>
-        <h1 class="text-center">My Portfolio</h1>
+        <h1 class="text-center" id="portfolio">My Portfolio</h1>
         <hr>
         <br>
         
         <!-- Portfolio section (Prime Mobile) -->
         <section>
-            <div class="portfolio">
+            <div class="portfolio" id="prime">
                 <div class="portfolio-text-block">
                     <h2 class="portfolio-title">Prime Mobile</h2>
+                    <h3>02/04/2022</h3>
                     <p class="portfolio-text">
                         PrimeMobile is an online phone provider offering a wide range of mobiles from budget to premium
                         products with customisation options for customers to personalize their devices.
@@ -61,12 +60,13 @@
         <br>
         <!-- Portfolio section (CoinVue) -->
         <section>
-            <div class="portfolio">
+            <div class="portfolio" id="coinvue">
                 <div class="portfolio-img-block">
                     <img src="images/coinvue.png" alt="CoinVue home page" class="portfolio-img">
                 </div>
                 <div class="portfolio-text-block">
-                    <h2 class="portfolio-title">CoinVue</h2>
+                    <h2 class="portfolio-title">CoinVue 2.1</h2>
+                    <h3>01/06/2022</h3>
                     <p class="portfolio-text">
                         CoinVue is a cryptocurrency portfolio tracker and price tracker updating price movements to give users fast,
                         accurate and informative data on their assets performance.
@@ -87,9 +87,10 @@
 
         <!-- Portfolio section (Hydra PC's) -->
         <section>
-            <div class="portfolio">
+            <div class="portfolio" id="hydra">
                 <div class="portfolio-text-block">
                     <h2 class="portfolio-title">Hydra PC's</h2>
+                    <h3>31/05/2021</h3>
                     <p class="portfolio-text">
                         Hydra PC`s is a computer hardware store with a focus for custom bespoke gaming PC`s
                         where users can pick and choose parts for their personal needs.
@@ -126,7 +127,7 @@
 
         <!-- About / Contact section (More text maybe use the CV paragragh thing) -->
         <section>
-            <div class="about">
+            <div class="about" id="about">
                 <div class="about-me" style="background-color: black; width: 20%;">
                     <img src="images/profile_pic_enhanced.png" alt="Profile picture" id="about-img">
                 </div>
@@ -143,23 +144,23 @@
             <div class="contact">
                 <p class="contact-text">Email: lukefoxwell1@gmail.com</p>
                 <p class="contact-text">Phone Number: 07471201766</p>
-                <p class="contact-text">LinkedIn</p>
-                <p class="contact-text">GitHub</p>
-                <p class="contact-text">CV</p>
+                <p class="contact-text"><a href="https://www.linkedin.com/in/lukefoxwell/" target="_blank">LinkedIn</a></p>
+                <p class="contact-text"><a href="https://github.com/luke2533" target="_blank">GitHub</a></p>
+                <p class="contact-text"><a href="#">CV</a></p>
             </div>
         </section>
 
         <!-- Links / Contact section (GitHub linkned) -->
         <footer>
-            <div class="footer-block">
+            <div class="footer-block" id="links">
                 <div class="footer-section">
                     <h3>Portfolio links</h3>
                     <ul>
-                        <li>Prime Mobile</li>
-                        <li>CoinVue</li>
-                        <li>Hydra PC's</li>
-                        <li>TBA</li>
-                        <li>TBA</li>
+                        <li><a href="#prime">Prime Mobile</a></li>
+                        <li><a href="#coinvue">CoinVue</a></li>
+                        <li><a href="#hydra">Hydra PC's</a></li>
+                        <li><a href="#">TBA</a></li>
+                        <li><a href="#">TBA</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
@@ -174,17 +175,17 @@
                 <div class="footer-section">
                     <h3>Other Links</h3>
                     <ul>
-                        <li>CV</li>
-                        <li>GitHub</li>
-                        <li>LinkedIn</li>
+                        <li><a href="#">CV</a></li>
+                        <li><a href="https://github.com/luke2533" target="_blank">GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/in/lukefoxwell/" target="_blank">LinkedIn</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h3>Navigation</h3>
                     <ul>
-                        <li>Home</li>
-                        <li>About Me</li>
-                        <li>My Portfolio</li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#portfolio">My Portfolio</a></li>
                     </ul>
                 </div>
             </div>

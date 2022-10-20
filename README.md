@@ -42,3 +42,11 @@ Additions:
 
 - Added footer
 - Moved About me / Contact section to bottom of page
+
+### 1.6 Added links
+
+Additions:
+
+- Added nav links
+- Added about links
+- Added footer links
