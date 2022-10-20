@@ -50,3 +50,9 @@ Additions:
 - Added nav links
 - Added about links
 - Added footer links
+
+### 1.7 Responsive mobile support
+
+Additions:
+
+- Mobile breakpoints added

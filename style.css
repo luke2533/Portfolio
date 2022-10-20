@@ -11,6 +11,14 @@ nav {
     box-shadow: 1px 2px rgba(0, 0, 0, 0.1);
 }
 
+a {
+    color: white !important;
+}
+
+nav a {
+    color: black !important;
+}
+
 .text-center {
     text-align: center !important;
 }
@@ -127,6 +135,7 @@ nav {
 
 .portfolio-link {
     font-size: 1.25em;
+    color: black !important;
 }
 
 footer {
@@ -150,4 +159,110 @@ footer h3 {
     display: inline-block;
     width: 20%;
     margin-top: 10px;
+}
+
+/* Responsive Breakpoints */
+
+@media (max-width: 426px) {
+    .nav-title {
+        font-size: 17.5px;
+        width: 25%;
+    }
+
+    .nav-bar {
+        width: 75%;
+    }
+    
+    .nav-link {
+        font-size: 15px;
+    }
+
+    .portfolio-text-block {
+        padding: 10px;
+        background-color: white;
+        width: 40% !important;
+        height: 250px;
+        overflow: auto;
+    }
+    
+    .portfolio-img-block {
+        padding: 10px;
+        width: 50% !important;
+        height: 250px;
+    }
+    
+    .portfolio-img {
+        height: 250px;
+        width: 200px;
+    }
+    
+    .portfolio-title {
+        font-size: 1.2em;
+        margin-top: 3px;
+    }
+    
+    .portfolio-text {
+        font-size: 12.5px;
+    }
+    
+    .portfolio-link {
+        font-size: 15px;
+    }
+
+    .about-me {
+        margin-top: 15px;
+        padding: 15px;
+        width: 65%;
+        height: 200px;
+    }
+
+    #about-scroll {
+        overflow: auto;
+    }
+
+    #about-img {
+        width: 90px;
+        height: 200px;
+    }
+    
+    #about-title {
+        font-size: 1.25em !important;
+        margin-top: 2px !important;
+    }
+    
+    .about-text {
+        font-size: 15px;
+    }
+    
+    .contact {
+        max-height: 150px;
+        background-color: rgb(54, 54, 54);
+        width: 99%;
+        margin: auto;
+    }
+    
+    .contact-text {
+        font-size: 12.5px;
+        margin-right: 10px;
+        margin-top: 15px;
+        color: white;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+
+    footer ul {
+        padding-left: 10px;
+        padding-right: 5px;
+    }
+    
+    footer h3 {
+        font-size: 15px;
+    }
+    
+    .footer-section {
+        margin-right: 10px;
+        width: 25%;
+    }
 }
