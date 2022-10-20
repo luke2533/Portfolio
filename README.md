@@ -35,3 +35,10 @@ Additions:
 - prime_mobile.png
 - coinvue.png
 - hydra_pc.png
+
+### 1.5 Moved about me section to bottom of page and added footer
+
+Additions:
+
+- Added footer
+- Moved About me / Contact section to bottom of page
