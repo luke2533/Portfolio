@@ -18,10 +18,20 @@ Additions:
 - style.css
 - Basic navbar
 
-### 1.2 Basic about section with image
+### 1.3 Basic about section with image
 
 Additions:
 
 - images folder
 - profile_pic_enhanced.png
 - Basic about section
+
+### 1.4 Added basic contact and portfolio sections
+
+Additions:
+
+- Basic contact section
+- Basic portfolio project section
+- prime_mobile.png
+- coinvue.png
+- hydra_pc.png
