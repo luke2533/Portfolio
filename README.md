@@ -17,3 +17,11 @@ Additions:
 
 - style.css
 - Basic navbar
+
+### 1.2 Basic about section with image
+
+Additions:
+
+- images folder
+- profile_pic_enhanced.png
+- Basic about section
