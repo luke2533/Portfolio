@@ -3,16 +3,42 @@ body {
     margin: 0px !important;
 }
 
+a {
+    color: black !important;
+}
+
+/* Dark mode */
+
+.dark-mode {
+    background-color: rgb(17, 17, 17) !important;
+    color: white !important;
+}
+
+.dark-mode a {
+    color: white !important;
+}
+
+.dark-mode nav {
+    box-shadow: 1px 2px rgba(255, 255, 255, 0.3);
+}
+
+.white-text {
+    color: white;
+}
+
+.portfolio-dark-text-block {
+    background-color: rgb(7, 7, 7) !important;
+    color: white !important;
+}
+
+/* Navbar */
+
 nav {
     background-color: white;
     padding: 8px !important;
     display: flex;
     align-items: center;
     box-shadow: 1px 2px rgba(0, 0, 0, 0.1);
-}
-
-a {
-    color: white !important;
 }
 
 nav a {
@@ -46,52 +72,7 @@ nav a {
     margin-right: 10px;
 }
 
-.about {
-    display: flex;
-    justify-content: center;
-}
-
-.about-me {
-    display: inline-block;
-    align-content: center;
-    margin-top: 25px;
-    padding: 35px;
-    background-color: white;
-    width: 25%;
-    height: 300px;
-}
-
-#about-img {
-    display: block;
-    height: 300px;
-    border-radius: 360px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#about-title {
-    font-size: 2em !important;
-}
-
-.about-text {
-    font-size: 1.25em;
-}
-
-.contact {
-    display: flex;
-    justify-content: center;
-    max-height: 150px;
-    background-color: rgb(54, 54, 54);
-    width: 52.3%;
-    margin: auto;
-}
-
-.contact-text {
-    font-size: 1.25em;
-    margin-right: 50px;
-    margin-top: 15px;
-    color: white;
-}
+/* Portfolio */
 
 .portfolio {
     display: flex;
@@ -135,8 +116,60 @@ nav a {
 
 .portfolio-link {
     font-size: 1.25em;
-    color: black !important;
 }
+
+/* About section */
+
+.about {
+    display: flex;
+    justify-content: center;
+}
+
+.about-me {
+    display: inline-block;
+    align-content: center;
+    margin-top: 25px;
+    padding: 35px;
+    background-color: white;
+    width: 25%;
+    height: 300px;
+}
+
+#about-img {
+    display: block;
+    height: 300px;
+    border-radius: 360px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about-title {
+    font-size: 2em !important;
+}
+
+.about-text {
+    font-size: 1.25em;
+}
+
+/* Contact Me */
+
+.contact {
+    display: flex;
+    justify-content: center;
+    max-height: 150px;
+    background-color: rgb(54, 54, 54);
+    width: 52.3%;
+    margin: auto;
+}
+
+.contact-text {
+    font-size: 1.25em;
+    margin-right: 50px;
+    margin-top: 15px;
+    color: white;
+}
+
+/* Footer */
 
 footer {
     margin-top: 25px;

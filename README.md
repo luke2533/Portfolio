@@ -81,3 +81,12 @@ Additions:
 - coinvue_3.png
 - hydra_pc_2.png
 - hydra_pc_3.png
+
+### 1.11 Dark mode and images change when hovered over
+
+Additions:
+
+- Hovering over a project image changes is it to another image
+- Dark mode added
+- moon_light.png
+- moon.png
