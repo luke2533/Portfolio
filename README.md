@@ -69,3 +69,15 @@ Additions:
 
 - Small laptop breakpoints added
 - Large laptop breakpoints added
+
+### 1.10 Images added and script.js
+
+Additions:
+
+- script.js
+- prime_mobile_2.png
+- prime_mobile_3.png
+- coinvue_2.png
+- coinvue_3.png
+- hydra_pc_2.png
+- hydra_pc_3.png
